@@ -160,8 +160,3 @@ The main reason is that:
 * There are **no unnecessary transitive dependencies** → 3NF.
 * Department information is separated into its own table instead of repeatedly storing `dept_name` in Student, Course, and Faculty.
 * Enrollment handles the **many-to-many relationship between Student and Course**.
-
-**Exam-style answer:**
-
-> The given College Management Database is in **3NF**. All relations satisfy 1NF and 2NF, and there are no transitive dependencies among non-key attributes. Primary keys uniquely identify records, while foreign keys maintain relationships between the tables.
-
